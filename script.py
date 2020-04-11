@@ -4,11 +4,11 @@ def sum(l):
     return np.sum(l)
 
 def main():
-    T = int(input().strip())
+    T = int(input())
     for i in range(T):
-        N = int(input().strip())
-        C = [int(x) for x in input().split()]
+        C = map(int, raw_input().split())
         res = sum(C)
         print("Case #%d: %s\n" % (i + 1, res))
 
-main()
+if __name__ == '__main__':
+	main()
