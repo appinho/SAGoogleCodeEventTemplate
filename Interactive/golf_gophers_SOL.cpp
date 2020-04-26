@@ -1,7 +1,7 @@
-/**
- *    author:  tourist
- *    created: 31.03.2018 11:41:48       
-**/
+// CJ19/1A
+// MIDDLE
+// Interactive
+// Probability/Chinese remainder/Prime
 #include <bits/stdc++.h>
 
 using namespace std;

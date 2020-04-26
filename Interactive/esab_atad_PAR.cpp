@@ -1,3 +1,7 @@
+// CJ20/Q
+// MIDDLE / PARTIAL
+// Bit manipulation
+
 #include <algorithm>
 #include <bitset>
 #include <cassert>
@@ -103,7 +107,7 @@ void rsolve(){
 	// exit                    // exits to avoid an ambiguous TLE error
 }
 
-void solve(){
+void esab_atad(){
 
 	int T;
 	// reads 100 into t and 10 into b.
@@ -119,5 +123,5 @@ void solve(){
 }
 int main(){
 
-	solve();
+	esab_atad();
 }

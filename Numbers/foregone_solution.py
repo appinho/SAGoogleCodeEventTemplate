@@ -1,6 +1,10 @@
+# CJ19/Q
+# EASY
+# Digit traversing
+
 t = int(raw_input())
 
-def solve():
+def foregone_solution():
 
 	price = raw_input()
 	n = len(price)
@@ -13,4 +17,4 @@ def solve():
 	return  str(a) + ' ' + str(b)
 
 for __ in xrange(t):
-	print "Case #%d: %s" % (__+1, solve())
+	print "Case #%d: %s" % (__+1, foregone_solution())

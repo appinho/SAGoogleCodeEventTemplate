@@ -1,7 +1,8 @@
-/**
- *    author:  tourist
- *    created: 31.03.2018 11:41:48       
-**/
+// CJ19/1A
+// HARD
+// Trie
+// Prefix/Suffix
+
 #include <bits/stdc++.h>
 
 using namespace std;

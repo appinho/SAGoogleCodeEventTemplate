@@ -1,3 +1,7 @@
+// CJ20/1A
+// HARD
+// Linked list
+
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -47,7 +51,7 @@ float getAverageNeighborLevel(vector< vector<int> > & F, int R, int C, int cr, i
     else return 0.0;
 }
 
-long long squareDance(vector< vector<int> > & F, int R, int C){
+long long square_dance(vector< vector<int> > & F, int R, int C){
 
     long long intensity = 0;
     bool battledOut = true;
@@ -104,7 +108,7 @@ int main(){
         }
 
         time_t startt = clock();
-        cout << "Case #" << t << ": " << squareDance(F, R, C) << endl;
+        cout << "Case #" << t << ": " << square_dance(F, R, C) << endl;
         cerr << "~ #" << t << " done! time : " << (double)(clock()-startt)/CLOCKS_PER_SEC << "s." << endl;
     }
     return 0;

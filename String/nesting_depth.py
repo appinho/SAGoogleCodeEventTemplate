@@ -1,3 +1,7 @@
+# CJ20/Q
+# EASY
+# Parentheses
+
 import numpy as np
 
 def nesting_depth(S):

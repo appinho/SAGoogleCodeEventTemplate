@@ -1,3 +1,7 @@
+# CJ19/Q
+# MIDDLE
+# Prime
+
 t = int(raw_input())
 
 def gcd(a,b):
@@ -5,7 +9,7 @@ def gcd(a,b):
         return a
     return gcd(b, a%b)
 
-def solve():
+def cryptopangrams():
     n,l = map(int, raw_input().split())
     message = map(int, raw_input().split())
     primes = set()
@@ -38,4 +42,4 @@ def solve():
     return "!!!"
     
 for __ in xrange(t):
-    print "Case #%d: %s" % (__+1, solve())
+    print "Case #%d: %s" % (__+1, cryptopangrams())

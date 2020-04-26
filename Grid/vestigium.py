@@ -1,3 +1,7 @@
+# CJ20/Q
+# EASY
+# Latin square
+
 import numpy as np
 
 def vestigium(M, N):

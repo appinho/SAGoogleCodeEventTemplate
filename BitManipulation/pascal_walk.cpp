@@ -1,3 +1,7 @@
+// CJ20/1A
+// EASY
+// Quadratic number/Pascal triangle/Bit manipulation
+
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -12,7 +16,7 @@
 using namespace std;
 
 
-void pascal(const int N){
+void pascal_walk(const int N){
 
     if(N <= 32){
         cout << "1 1" << endl;
@@ -111,7 +115,7 @@ int main(){
 
         time_t startt = clock();
         cout << "Case #" << t << ":" << endl;
-        pascal(N);
+        pascal_walk(N);
         cerr << "~ #" << t << " done! time : " << (double)(clock()-startt)/CLOCKS_PER_SEC << "s." << endl;
     }
     return 0;

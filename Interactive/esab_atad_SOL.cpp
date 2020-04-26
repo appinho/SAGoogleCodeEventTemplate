@@ -1,3 +1,7 @@
+// CJ20/Q
+// MIDDLE / SOL
+// Bit manipulation
+
 #include <algorithm>
 #include <bitset>
 #include <cassert>
@@ -107,7 +111,7 @@ void rsolve() {
   assert(s == "Y");
 }
 
-void solve() {
+void esab_atad() {
   int t;
   cin >> t >> numb;
   for(int casenum = 1; casenum <= t; casenum++) {
@@ -119,5 +123,5 @@ void solve() {
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL); cout.tie(NULL);
-  solve();
+  esab_atad();
 }

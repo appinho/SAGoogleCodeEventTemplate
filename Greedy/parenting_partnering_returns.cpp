@@ -1,17 +1,11 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <list>
-#include <map>
-#include <stack>
-#include <queue>
-#include <set>
-#include <cmath>
-#include <algorithm>
+// CJ20/Q
+// EASY
+// Scheduling
 
+#include <bits/stdc++.h>
 using namespace std;
 
-string schedule(vector<vector<int> > & v, const int N){
+string parenting_partnering_returns(vector<vector<int> > & v, const int N){
 
     sort(v.begin(), v.end()); 
     string schedule(N, 'x');
@@ -66,7 +60,7 @@ int main(){
         }
 
         time_t startt = clock();
-        cout << "Case #" << t << ": " << schedule(S, N) << endl;
+        cout << "Case #" << t << ": " << parenting_partnering_returns(S, N) << endl;
         cerr << "~ #" << t << " done! time : " << (double)(clock()-startt)/CLOCKS_PER_SEC << "s." << endl;
     }
     return 0;

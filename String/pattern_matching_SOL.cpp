@@ -1,7 +1,7 @@
-/**
- *    author:  tourist
- *    created: 11.04.2020 03:52:40       
-**/
+// CJ20/1A
+// HARD
+// Prefix/Suffix
+
 #include <bits/stdc++.h>
 
 using namespace std;

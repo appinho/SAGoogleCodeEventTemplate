@@ -11,13 +11,28 @@
 
 using namespace std;
 
-int sum(const vector<int> & v){
+void evenSubset(const vector<int> & v){
 
-    int sum = 0;
+    vector<int> sol;
     for(int i = 0; i < v.size(); i++){
-        sum += v[i];
+        if(v[i] % 2 == 0){
+            cout << 1 << endl;
+            cout << i + 1 << endl;
+            return;
+        }
+        else{
+            if(sol.size() < 2){
+                sol.append(v[i]);
+            }
+        }
     }
-    return sum;
+    if(sol.size() == 2){
+        cout << 2 << endl;
+        cout << sol[0] << " " << sol[1] << endl;
+    }
+    else{
+        cout << -1 << endl;
+    }
 }
 
 int main(){
@@ -46,7 +61,8 @@ int main(){
         }
 
         time_t startt = clock();
-        cout << "Case #" << t << ": " << sum(C) << endl;
+        cout << "Case #" << t << ": ";
+        evenSubset(C);
         cerr << "~ #" << t << " done! time : " << (double)(clock()-startt)/CLOCKS_PER_SEC << "s." << endl;
     }
     return 0;

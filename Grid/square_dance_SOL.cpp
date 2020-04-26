@@ -1,7 +1,7 @@
-/**
- *    author:  tourist
- *    created: 11.04.2020 04:05:41       
-**/
+// CJ20/1A
+// HARD
+// Linked list
+
 #include <bits/stdc++.h>
 
 using namespace std;
