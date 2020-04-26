@@ -1,5 +1,5 @@
 // CJ18/1A
-// Medium
+// MEDIUM
 // Sorting/Counting
 
 // g++ -std=c++14 -O2 -Wall test.cpp -o test

@@ -24,6 +24,9 @@ int main() {
 	cin >> T;
 	for(int t = 1; t <= T; ++t){
 		cout << t << "\n"; // \n does not flush
+		time_t startt = clock();
+        cout << "Case #" << t << ": " << t << endl;
+        cerr << "~ #" << t << " done! time : " << (double)(clock()-startt)/CLOCKS_PER_SEC << "s." << endl;
 	}
 	return 0;
 }

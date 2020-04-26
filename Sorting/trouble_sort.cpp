@@ -1,5 +1,5 @@
 // CJ18/Q
-// Medium
+// MEDIUM
 // Bubble Sort
 
 #include <iostream>

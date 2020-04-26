@@ -1,5 +1,5 @@
 // CJ18/Q
-// Medium
+// MEDIUM
 // Probability
 
 #include <bits/stdc++.h>

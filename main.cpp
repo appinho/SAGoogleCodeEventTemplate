@@ -37,7 +37,7 @@ void evenSubset(const vector<int> & v){
 
 int main(){
 
-    // // REMOVE LATER
+    // REMOVE LATER
     ifstream cin;
     cin.open("test.txt");
     if (!cin) {

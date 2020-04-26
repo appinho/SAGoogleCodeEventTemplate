@@ -10,8 +10,8 @@ https://cses.fi/book/book.pdf
 - pascal_triangle_walk(CJ20/1A/EASY): Walk through pascal triangle to achieve a sum  **Quadratic numbers/decomposing number**
 
 ### Complete Search
-- pylons(CJ19/1A): Place pylons in a grid so the adjacent numeration is not in same row, column or diagonal **Backtracing/Random**  
-- a_whole_new_word.cpp(CJ18/1C): Tiles of letters are forming words and a new unique word has to be found **Recursion/Set**
+- pylons(CJ19/1A/HARD): Place pylons in a grid so the adjacent numeration is not in same row, column or diagonal **Backtracing/Random**  
+- a_whole_new_word.cpp(CJ18/1C/MEDIUM): Tiles of letters are forming words and a new unique word has to be found **Recursion/Set**
 
 ### Dynamic Programming
 - ant_stack(CJ18/1C/HARD): Maximum number of ants that form a stack so the lower one is larger and can carry the weight of the upper ones **Memset**  
@@ -33,7 +33,7 @@ https://cses.fi/book/book.pdf
 - expogo(CJ20/1B/MEDIUM): Jump in (i-1)^2 steps to see if you can reach a goal **Odd Even**  
 - manhattan_crepe_cart(CJ19/1B/EASY): Find crepe cart in manhattan by **Manhattan Distance**
 - square_dance(CJ20/1A/HARD): each dancer in the grid battles against compass neighbors **Linked list**  
-- vestigium(CJ20/Q/EASY): Compute trace and number of rows and columns with duplicated entries in Latin square matrix (each row and cell have values from 1,...,N) **Set**
+- vestigium(CJ20/Q/EASY): Compute trace and number of rows and columns with duplicated entries in Latin square matrix, when each row and cell have values from 1,...,N **Set**
 - waffle_choppers(CJ18/1A/MEDIUM): Slide a waffle with chocolate bits vertically and horizontally so that each piece has the same numbers of chocolate bits **Sorting/Counting**
 
 ### Interactive
@@ -49,9 +49,11 @@ https://cses.fi/book/book.pdf
 - power_arrangers(C19/1C/EASY): Ask max. 150 times for a permutation out of 5 puppets to find that one missing out of 120. 119/23/5/1 **Permutations**
 
 ### Numbers
+- bathroom_stalls(C18/Q/HARD): Find the number of open stalls after K choices when everybody chooses the stall the furthest away from the others **Priority queue/Map/Ceil**
 - cryptopangrams(C19/Q/MEDIUM): Pangram is a phrase where each letter is there at least one time. Decode prime numbers that are assigned to each letter **Prime/GCD**
 - foregone_solution(CJ19/Q/EASY): Split number into a sum so that no 4 occurs **Digit Traversing**
 - rounding_error(CJ18/1B/MEDIUM): Determine how to distribute remaining votes so that the rounded number is maximized  **Rounding/Hash Map/Voting**
+- steed_2_cruise_control(CJ18/P/EASY): Find the maximum speed so that no horse will be overtaken **Precision**
 
 ### Recursion
 

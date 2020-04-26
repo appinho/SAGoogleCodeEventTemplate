@@ -53,8 +53,8 @@
 * P
 	* [x] Number Guessing - Interactive - Binary search
 	* [x] Senate Evacuation - Game Theory - ASCII/Max element
-	* [N] Steed 2: Cruise Control
-	* [N] Bathroom Stalls
+	* [x] Steed 2: Cruise Control - Numbers - Precision
+	* [x] Bathroom Stalls - Numbers - Priority queue/Map/Ceil
 * Q
 	* [x] Saving the Universe again - Greedy - Swap
 	* [x] Trouble Sort - Sorting - Bubble Sort/Odd Even
