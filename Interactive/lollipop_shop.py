@@ -1,3 +1,7 @@
+# CJ18/1C
+# EASY
+# Greedy/Probabilistic
+
 import sys
 
 def solve(l, sold, count, N):

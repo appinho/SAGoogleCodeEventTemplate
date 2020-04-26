@@ -1,3 +1,7 @@
+// CJ19/1C
+// EASY
+// Rock Papers Scissors
+
 #include <iostream>
 #include <vector>
 #include <utility>

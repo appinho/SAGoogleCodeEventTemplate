@@ -1,3 +1,7 @@
+// CJ18/Q
+// Medium
+// Bubble Sort
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

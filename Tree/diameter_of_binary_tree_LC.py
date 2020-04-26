@@ -1,3 +1,7 @@
+# LC
+# MIDDLE
+# Prime
+
 def diameterOfBinaryTree(self, root):
     """
     :type root: TreeNode

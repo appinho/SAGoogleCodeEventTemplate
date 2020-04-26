@@ -1,3 +1,7 @@
+// CJ18/P
+// EASY
+// Binary search
+
 #include <iostream>
 #include <string>
 
