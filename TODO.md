@@ -11,7 +11,7 @@
 	* [P/S] Esab atad - Interactive - Bit manipulation
 	* [ ] Indicium
 * 1A
-	* [S] Pattern Matching - String - Prefix/Suffix
+	* [S] Pattern Matching - String - Prefix&Suffix
 	* [x] Pascal Walk - Bit manipulation - Pascal's Triangle
 	* [P/S] Square Dance - Grid - Linked list
 * 1B
@@ -27,17 +27,17 @@
 
 * Q
 	* [x] Foregone solution - Numbers - Digit Traversing
-	* [x] You can go your own way - Game Theory - Opposite strategy
+	* [x] You can go your own way - Game Theory - Grid traversal/Opposite strategy
 	* [x] Cryptopangrams - Numbers - Prime/GCD
 	* [ ] Dat Bae
 * 1A
 	* [P] Pylons - Complete Search - Backtracing/Random
 	* [P] Golf gophers - Interactive - Probability/Chinese remainder/Prime
-	* [S] Alien Ryhme - Trie - Prefix/Suffix
+	* [S] Alien Ryhme - Trie - Prefix&Suffix/ASCII
 * 1B
 	* [x] Manhattan Crepe Cart - Grid - Manhattan Distance
 	* [P] Draupnir - Interactive - Modulo/Power of two/Evolution
-	* [SOL] Fair fight - Sorting - Binary Search/Range query 
+	* [P/S] Fair fight - Sorting - Binary Search/Range query 
 * 1C
 	* [x] Robot Programming Strategy - Game Theory - Rock Papers Scissors
 	* [x] Power Arrangers - Interactivr - Permutations
@@ -45,7 +45,7 @@
 * 2
 	* [x] New Elements: Part 1 - Sorting - Permutations/GCD
 	* [x] Pottery Lottery - Interactive - Probability/Voting
-	* [] New Elements: Part 2
+	* [N] New Elements: Part 2
 	* [] Contransmutation
 
 ### 2018
@@ -67,12 +67,90 @@
 * 1B
 	* [x] Rounding Error - Numbers - Rounding/Hash Map/Voting
 	* [N] Mysterious Road Signs
-	* [N] Transmutation
+	* [] Transmutation
 * 1C
 	* [x] A whole new word - Complete Search - Recursion/Set
 	* [x] Lollipop Shop - Interactive - Greedy/Probabilistic
 	* [P] Ant Stack - Dynamic Programming - Memset
 
+### 2017
+
+* P
+	* [x] Oversized pancake flippers - Greedy - Bit Manipulation
+	* [x] Tidy numbers - Numbers - Long long/Digit Traversing
+	* [x] Bathroom Stalls - Numbers - Priority queue/Map/Ceil
+	* [] Fashion Show
+
+## Kick Start
+
+### 2020
+
+* A
+	* [x] Allocation - Greedy - Sorting
+	* [x] Plates - Dynamic Programming - 0-1 Knapsack Problem 
+	* [x] Workout - Sorting - Binary Search/Range query
+	* [] Bundling
+
+* B
+	* [x] Bike Tour - Numbers - Counting peaks
+	* [x] Bus routes - Greedy - Long long/Reverse
+	* [x] Robot Path Decoding - Grid - Stack/Nested/Parenthesis
+	* [P] Wandering robot - Dynamic Programming - Grid traversal/Probability
+
+### 2019
+
+* P
+	* [x] Number Guessing - Interactive - Binary search
+	* [] Mural
+	* [] Kickstart Alarm
+
+* A
+	* []
+	* []
+	* []
+
+* B
+	* []
+	* []
+	* []
+
+* C
+	* []
+	* []
+	* []
+
+* D
+	* []
+	* []
+	* []
+
+* E
+	* []
+	* []
+	* []
+
+* F
+	* []
+	* []
+	* []
+
+* G
+	* []
+	* []
+	* []
+
+* H
+	* []
+	* []
+	* []
+
+### 2018
+
+* A
+	* [x] Even digits - Numbers - Digit Traversal/Long long/Odd Even
+
+* B
+	* [P] No Nine - Numbers - Digit traversal
 
 ## Leetcode
 

@@ -1,7 +1,7 @@
 // CJ19/Q
 // EASY
 // Game theory
-// Opposite strategy
+// Grid traversal/Opposite strategy
 
 #include <iostream>
 #include <string>
