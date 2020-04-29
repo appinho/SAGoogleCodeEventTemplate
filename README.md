@@ -32,7 +32,7 @@ https://cses.fi/book/book.pdf
 - you_can_go_your_own_way(CJ19/Q/EASY): Traverse through grid from top left to bottom right by doing the **Grid traversal/Opposite strategy**
 
 ### Graphs
--cherries_mesh(KS19/E/MEDIUM): All cherries are connected by red or black strands. Try to remove as much strands so that they are still connected **DFS/Connected Components**
+- cherries_mesh(KS19/E/MEDIUM): All cherries are connected by red or black strands. Try to remove as much strands so that they are still connected **DFS/Connected Components**
 - parcels(KS19/A/MEDIUM): Find the location in a grid to place a delivery shop to minimize the worst case delivery time **BFS/Manhattan Distance**
 
 ### Greedy
@@ -44,7 +44,7 @@ https://cses.fi/book/book.pdf
 - saving_the_universe_again(CJ18/Q/EASY): Find the minimum amount of hacks that needs to be done to protect the shield against charging and shooting commands of aliens **Swap**
 
 ### Grid
--circuit_board(KS19/C/MEDIUM): Find the maximum rectangle in a grid with a maximum difference of row cells of K **Stack/Histogram**
+- circuit_board(KS19/C/MEDIUM): Find the maximum rectangle in a grid with a maximum difference of row cells of K **Stack/Histogram**
 - expogo(CJ20/1B/MEDIUM): Jump in (i-1)^2 steps to see if you can reach a goal **Odd Even**  
 - manhattan_crepe_cart(CJ19/1B/EASY): Find crepe cart in manhattan by **Manhattan Distance**
 - robot_path_decoding(KS20/B/EASY): Decode the nested commands of robot movements to find the final cell **Stack/Nested/Parenthesis**

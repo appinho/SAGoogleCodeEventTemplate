@@ -32,7 +32,7 @@
 	* [ ] Dat Bae
 * 1A
 	* [P] Pylons - Complete Search - Backtracing/Random
-	* [P] Golf gophers - Interactive - Probability/Chinese remainder/Prime
+	* [P/S] Golf gophers - Interactive - Probability/Chinese remainder/Prime
 	* [S] Alien Ryhme - Trie - Prefix&Suffix/ASCII
 * 1B
 	* [x] Manhattan Crepe Cart - Grid - Manhattan Distance
@@ -45,7 +45,7 @@
 * 2
 	* [x] New Elements: Part 1 - Sorting - Permutations/GCD
 	* [x] Pottery Lottery - Interactive - Probability/Voting
-	* [N] New Elements: Part 2
+	* [U] New Elements: Part 2
 	* [] Contransmutation
 
 ### 2018
