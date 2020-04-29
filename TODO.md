@@ -105,44 +105,44 @@
 	* [] Kickstart Alarm
 
 * A
-	* []
-	* []
-	* []
+	* [x] Training - Game Theory - Prefix sum
+	* [x] Parcels - Graphs - BFS/Manhattan Distance
+	* [] Contention
 
 * B
-	* []
-	* []
-	* []
+	* [x] Building Palindromes - Dynamic Programming - Prefix sum/ASCII/Palindrome
+	* [] Energy Stones 
+	* [P/S] Diverse Subarray - Tree - Segment Tree/Prefix sum
 
 * C
-	* []
-	* []
-	* []
+	* [x] Wiggle Walk - Grid - Grid traversal
+	* [P] Circuit Board - Grid - Stack/Histogram
+	* [] Catch Some
 
 * D
-	* []
-	* []
-	* []
+	* [x] X or What - Bit manipulation - XOR/Digit traversal
+	* [x] Latest guests - Complete Search - Circular buffer
+	* [P] Food Stalls - Complete Search - Sorting/Long long
 
 * E
-	* []
-	* []
-	* []
+	* [x] Cherries Mesh - Graphs - DFS/Connected Components
+	* [P] Code-Eat Switcher - Complete Search - Sorting/Binary search
+	* [P] Street Checkers - Numbers - Divisor/Odd Even/Sieve of Eratosthenes
 
 * F
-	* []
-	* []
-	* []
+	* [P] Flattening - Sorting - Combinatorics/Range query/Binary search
+	* [P] Teach me - Complete Search - Permutation/Subset
+	* [P] Spectating Villages - Tree - Complete search/Dynamic Programming
 
 * G
-	* []
-	* []
-	* []
+	* [x] Book Reading - Numbers - Precomputation/Harmonic Number
+	* [P] The Equation - Bit manipulation - XOR/Greedy
+	* [] Shifts
 
 * H
-	* []
-	* []
-	* []
+	* [x] H-index - Sorting - Priority queue
+	* [] Diagonal Puzzle
+	* [P] Elevanagram - Numbers - Permutation/Modulo
 
 ### 2018
 
