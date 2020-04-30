@@ -73,6 +73,7 @@ https://cses.fi/book/book.pdf
 - elevenagram(KS10/H/MEDIUM): Check if the digits of a larger number can be rearranged so it divisible by 11, when alternating sum is divisible by 11 **Permutation/Modulo**
 - even_digits(KS18/A/EASY): Find the minimum numbers of +- 1 to a number so all digits become even **Digit Traversal/Long long/Odd Even**
 - foregone_solution(CJ19/Q/EASY): Split number into a sum so that no 4 occurs **Digit Traversing**
+- lucky_dip(KS18/A/EASY): Find the expected value in case you play optically in a game with K drawings **Expected value/Probability/Precision**
 - no_nine(KS18/B/HARD): Count all numbers between L and R that are neither containing a 9 or are divisible by 9 **Digit traversal**
 - rounding_error(CJ18/1B/MEDIUM): Determine how to distribute remaining votes so that the rounded number is maximized  **Rounding/Hash Map/Voting**
 - steed_2_cruise_control(CJ18/P/EASY): Find the maximum speed so that no horse will be overtaken **Precision**

@@ -148,6 +148,7 @@
 
 * A
 	* [x] Even digits - Numbers - Digit Traversal/Long long/Odd Even
+	* [x] Lucky dip - Numbers - Expected value/Probability/Precision
 
 * B
 	* [P] No Nine - Numbers - Digit traversal
