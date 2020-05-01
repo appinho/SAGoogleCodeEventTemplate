@@ -59,7 +59,7 @@
 	* [x] Saving the Universe again - Greedy - Swap
 	* [x] Trouble Sort - Sorting - Bubble Sort/Odd Even
 	* [x] Go Gopher - Interactive - Probability/Set
-	* [N] Cubic UFO
+	* [P] Cubic UFO
 * 1A
 	* [X] Waffle Choppers - Grid - Sorting/Counting
 	* [X] Bit Party - Sorting - Binary Search/Range query

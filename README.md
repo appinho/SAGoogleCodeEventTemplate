@@ -70,6 +70,7 @@ https://cses.fi/book/book.pdf
 - bike_tour(KS20/B/EASY): Count the number of peaks of a bike tour **Counting peaks**
 - book_reading(KS19/G/MEDIUM): Count the number of pagers all readers read if they only read each kth page by a certain number of torn out pages **Precomputation/Harmonic Number**
 - cryptopangrams(C19/Q/MEDIUM): Pangram is a phrase where each letter is there at least one time. Decode prime numbers that are assigned to each letter **Prime/GCD**
+- cubic_ufo(CJ18/Q/HARD): Rotate a cube so that its shadow has a size of A **Precision/Geometry**
 - elevenagram(KS10/H/MEDIUM): Check if the digits of a larger number can be rearranged so it divisible by 11, when alternating sum is divisible by 11 **Permutation/Modulo**
 - even_digits(KS18/A/EASY): Find the minimum numbers of +- 1 to a number so all digits become even **Digit Traversal/Long long/Odd Even**
 - foregone_solution(CJ19/Q/EASY): Split number into a sum so that no 4 occurs **Digit Traversing**
