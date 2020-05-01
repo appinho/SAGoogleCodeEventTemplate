@@ -12,20 +12,32 @@ typedef pair<int,int> pi;
 #define MP make_pair
 #define REP(i,a,b) for (int i = a; i <= b; i++)
 
+void solve(int N){
+
+	cout << N << "\n"; // \n does not flush
+}
 int main() {
 	// Makes input and output more efficient
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-	// freopen("input.txt", "r", stdin);
-	// freopen("output.txt", "w", stdout);
+	// REMOVE LATER
+    ifstream cin;
+    cin.open("test.txt");
+    if (!cin) {
+        cout << "Unable to open file";
+        exit(1);
+    }
 
-	int T;
+	int T, N;
 	cin >> T;
 	for(int t = 1; t <= T; ++t){
-		cout << t << "\n"; // \n does not flush
+		
+		cin >> N;
+
 		time_t startt = clock();
-        cout << "Case #" << t << ": " << t << endl;
+        cout << "Case #" << t << ": ";
+        solve(N);
         cerr << "~ #" << t << " done! time : " << (double)(clock()-startt)/CLOCKS_PER_SEC << "s." << endl;
 	}
 	return 0;
