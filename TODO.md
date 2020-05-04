@@ -19,7 +19,9 @@
 	* [x] Blindfolded bullseye - Interactive - Binary Search
 	* [ ] Join the Ranks
 * 1C
-	* TO COME
+	* [x] Overexcited Fan - Grid - Manhattan Distance
+	* [x] Overrandomized - Game Theory - Counting/Codeword
+	* [P] Oversized Pancake Choppers - Sorting - Binary Search/GCD
 * 2
 	* TO COME
 

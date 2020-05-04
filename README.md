@@ -27,6 +27,7 @@ https://cses.fi/book/book.pdf
 - wandering_robot(KS20/B/MEDIUM): Calculate the probability that a robot does not fall into a rectangular hole within a grid by traversing through it **Grid traversal/Probability**
 
 ### Game Theory
+- overrandomized(CJ20/1A/EASY): From 10000 queries determine what ten letters stand for to find decoding **Counting/Codeword**
 - robot_programming_strategy(CJ19/1C/EASY): Find R/P/S to beat everybody with the same strategy in the tournament **Rock Paper Scissors**  
 - senate_evacuation(CJ18/P/EASY): Release max. two senators at a time so there is no absolute majority in the room left  **ASCII/Max element**  
 - you_can_go_your_own_way(CJ19/Q/EASY): Traverse through grid from top left to bottom right by doing the **Grid traversal/Opposite strategy**
@@ -47,6 +48,7 @@ https://cses.fi/book/book.pdf
 - circuit_board(KS19/C/MEDIUM): Find the maximum rectangle in a grid with a maximum difference of row cells of K **Stack/Histogram**
 - expogo(CJ20/1B/MEDIUM): Jump in (i-1)^2 steps to see if you can reach a goal **Odd Even**  
 - manhattan_crepe_cart(CJ19/1B/EASY): Find crepe cart in manhattan by **Manhattan Distance**
+- overexcited_fan(CJ20/1C/EASY): Determine if a fan starting at 0,0 can reach a vip following a certain path **Manhattan Distance**
 - robot_path_decoding(KS20/B/EASY): Decode the nested commands of robot movements to find the final cell **Stack/Nested/Parenthesis**
 - square_dance(CJ20/1A/HARD): Each dancer in the grid battles against compass neighbors **Linked list**  
 - vestigium(CJ20/Q/EASY): Compute trace and number of rows and columns with duplicated entries in Latin square matrix, when each row and cell have values from 1,...,N **Set**
@@ -60,16 +62,16 @@ https://cses.fi/book/book.pdf
 - esab_atad(CJ20/Q/MEDIUM): 25% of complementing, reversing bits **Bit manipulation**
 - go_gopher(CJ18/Q/EASY): Get a rectangle hole by letting gopher randomly dig in a 3x3 range **Probability/Set**
 - golf_gophers(CJ19/1A/MEDIUM): Ask how much flags of a windmill have changed by querying prime numbers **Probability/Chinese remainder/Prime**  
-- lollipop_shop(C18/1C/EASY): Sell least popular lollipop by tracking count of lollipops already sold **Greedy/Probabilistic**
+- lollipop_shop(CJ18/1C/EASY): Sell least popular lollipop by tracking count of lollipops already sold **Greedy/Probabilistic**
 - number_guessing(CJ18/P/EASY): Guessing the number within a range **Binary search**
-- pottery_lottery(C19/2/MEDIUM): Manipulation election so that you maximize the chance to win the lottery **Probability/Voting**
-- power_arrangers(C19/1C/EASY): Ask max. 150 times for a permutation out of 5 puppets to find that one missing out of 120. 119/23/5/1 **Permutations**
+- pottery_lottery(CJ19/2/MEDIUM): Manipulation election so that you maximize the chance to win the lottery **Probability/Voting**
+- power_arrangers(CJ19/1C/EASY): Ask max. 150 times for a permutation out of 5 puppets to find that one missing out of 120. 119/23/5/1 **Permutations**
 
 ### Numbers
-- bathroom_stalls(C18/Q/HARD): Find the number of open stalls after K choices when everybody chooses the stall the furthest away from the others **Priority queue/Map/Ceil**
+- bathroom_stalls(CJ18/Q/HARD): Find the number of open stalls after K choices when everybody chooses the stall the furthest away from the others **Priority queue/Map/Ceil**
 - bike_tour(KS20/B/EASY): Count the number of peaks of a bike tour **Counting peaks**
 - book_reading(KS19/G/MEDIUM): Count the number of pagers all readers read if they only read each kth page by a certain number of torn out pages **Precomputation/Harmonic Number**
-- cryptopangrams(C19/Q/MEDIUM): Pangram is a phrase where each letter is there at least one time. Decode prime numbers that are assigned to each letter **Prime/GCD**
+- cryptopangrams(CJ19/Q/MEDIUM): Pangram is a phrase where each letter is there at least one time. Decode prime numbers that are assigned to each letter **Prime/GCD**
 - cubic_ufo(CJ18/Q/HARD): Rotate a cube so that its shadow has a size of A **Precision/Geometry**
 - elevenagram(KS10/H/MEDIUM): Check if the digits of a larger number can be rearranged so it divisible by 11, when alternating sum is divisible by 11 **Permutation/Modulo**
 - even_digits(KS18/A/EASY): Find the minimum numbers of +- 1 to a number so all digits become even **Digit Traversal/Long long/Odd Even**
@@ -86,7 +88,8 @@ https://cses.fi/book/book.pdf
 - fair_fight(CJ19/1B/MEDIUM): Find pairs of fights so that the maximum difference is smaller than K **Binary Search/Range query**
 - flattening(KS19/F/HARD): Adapt/Remove bins of a wall so that there are at most K height differences **Combinatorics/Range query/Binary search**
 - h_index(KS19/H/MEDIUM): Calculate the h index after each publication **Priority queue**
-- new_elements_part_1(CJ19/1C/HARD): Sort molecule weights **Permutations/GCD**
+- new_elements_part_1(CJ19/2/HARD): Sort molecule weights **Permutations/GCD**
+- oversized_pancake_choppers(CJ20/1C/HARD): Find the minimal numbers of slicing pizza so that D diners have equal sizes **Binary Search/GCD**
 - trouble_sort(CJ18/Q/MEDIUM): Determine the first index where triplet bubble sort fails by swapping left and right elements when it is always comparing even/odd elements **Bubble Sort/Odd Even**
 - workout(KS20/A/MEDIUM): Find the maximum distance between workout intensities by placing K numbers between N workouts **Binary Search/Range query**
 
