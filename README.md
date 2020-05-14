@@ -105,8 +105,8 @@ https://cses.fi/book/book.pdf
 
 ### Trie
 - alien_rhyme(CJ19/1A/HARD): Create suffix try to find longest suffix pairs **Prefix&Suffix**
-
-
+- bundling(KS20/A/MEDIUM): Find groups of maximum K members so that the sum of their prefixes is maximized **Prefix/Combinatorics**
+- prefix_trie(LC): Basic class of a prefix trie **Prefix**
 
 ## Common Mistakes
 

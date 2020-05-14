@@ -91,7 +91,7 @@
 	* [x] Allocation - Greedy - Sorting
 	* [x] Plates - Dynamic Programming - 0-1 Knapsack Problem 
 	* [x] Workout - Sorting - Binary Search/Range query
-	* [] Bundling
+	* [x] Bundling - Trie - Prefix/Combinatorics
 
 * B
 	* [x] Bike Tour - Numbers - Counting peaks
@@ -158,4 +158,4 @@
 ## Leetcode
 
 * diameter_of_binary_tree - Tree - BST/Recursion
-	
+* prefix_trie - Trie - Prefix
