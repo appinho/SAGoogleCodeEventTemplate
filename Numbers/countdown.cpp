@@ -1,3 +1,7 @@
+// KS20/C
+// EASY
+// Counting
+
 // g++ template.cpp -std=c++14 -D_DEBUG
 #include <bits/stdc++.h>
 

@@ -1,27 +1,66 @@
+// KS20/C
+// MEDIUM
+// Topological Sort/DFS
+
 // g++ template.cpp -std=c++14 -D_DEBUG
+// https://cp-algorithms.com/graph/depth-first-search.html
 #include <bits/stdc++.h>
 
 using namespace std;
 
 vector<int> adj[26];
-vector<bool> visited;
+vector<int> visited;
 vector<char> ans;
 bool worked;
 
+/* EXAMPLE
+A
+M
+O -> A
+O -> M
+Z -> O
+
+Visit A: 
+1 0 0 0
+2 0 0 0
+A
+Visit M
+1 1 0 0
+2 2 0 0
+AM
+Visit O
+2 2 1 0
+2 2 2 0
+AMO
+Visit Z
+2 2 2 1
+2 2 2 2
+AMOZ
+=> ZOMA
+*/
+
 void dfs(int v) {
-	if(visited[v]){
-		worked = false;
-		return;
-	}
-    visited[v] = true;
+	// cout << "Visit " << v << endl;
+	// for(auto vi: visited){
+	// 	cout << vi << " ";
+	// }cout << endl;
+	// for(auto vi: ans){
+	// 	cout << vi << " ";
+	// }cout << endl;
+    visited[v] = 1;
 
     for (int u : adj[v]) {
     	// cout << v << "->" << u << endl;
-        if (!visited[u]){
+        if (visited[u] == 0){
             dfs(u);
         }
+        else if(visited[u] == 1){
+			worked = false;
+			return;
+		}
     }
     ans.push_back(char(v+'A'));
+    visited[v] = 2;
 }
 
 int main() {
@@ -69,12 +108,13 @@ int main() {
 		// 	cout << "\n";
 		// }
 		worked = true;
-		visited = vector<bool>(26, false);
+		visited = vector<int>(26, 0);
 		ans.clear();
 
 		for(int i = 0; i < 26; i++){
-		    if (adj[i].size())
-		        dfs(i);
+		    if (se.count(i+'A') && visited[i] == 0){
+		    	dfs(i);
+		    }
 		}
 	    reverse(ans.begin(), ans.end());
 		cout << "Case #" << t << ": ";

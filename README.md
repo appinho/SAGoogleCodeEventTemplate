@@ -35,6 +35,7 @@ https://cses.fi/book/book.pdf
 ### Graphs
 - cherries_mesh(KS19/E/MEDIUM): All cherries are connected by red or black strands. Try to remove as much strands so that they are still connected **DFS/Connected Components**
 - parcels(KS19/A/MEDIUM): Find the location in a grid to place a delivery shop to minimize the worst case delivery time **BFS/Manhattan Distance**
+- stable_wall(KS20/C/MEDIUM): Find the topological order of placing items so it builds up a wall **Topological sort/DFS**
 
 ### Greedy
 
@@ -71,6 +72,7 @@ https://cses.fi/book/book.pdf
 - bathroom_stalls(CJ18/Q/HARD): Find the number of open stalls after K choices when everybody chooses the stall the furthest away from the others **Priority queue/Map/Ceil**
 - bike_tour(KS20/B/EASY): Count the number of peaks of a bike tour **Counting peaks**
 - book_reading(KS19/G/MEDIUM): Count the number of pagers all readers read if they only read each kth page by a certain number of torn out pages **Precomputation/Harmonic Number**
+- countdown(KS20/C/EASY): Find the number of countdowns starting at K in a time series **Count**
 - cryptopangrams(CJ19/Q/MEDIUM): Pangram is a phrase where each letter is there at least one time. Decode prime numbers that are assigned to each letter **Prime/GCD**
 - cubic_ufo(CJ18/Q/HARD): Rotate a cube so that its shadow has a size of A **Precision/Geometry**
 - elevenagram(KS10/H/MEDIUM): Check if the digits of a larger number can be rearranged so it divisible by 11, when alternating sum is divisible by 11 **Permutation/Modulo**
@@ -78,6 +80,7 @@ https://cses.fi/book/book.pdf
 - foregone_solution(CJ19/Q/EASY): Split number into a sum so that no 4 occurs **Digit Traversing**
 - lucky_dip(KS18/A/EASY): Find the expected value in case you play optically in a game with K drawings **Expected value/Probability/Precision**
 - no_nine(KS18/B/HARD): Count all numbers between L and R that are neither containing a 9 or are divisible by 9 **Digit traversal**
+- perfect_subarray(KS20/C/HARD): Count all intervals in an array of which the sum is a perfect sum **Prefix sum/Cache/Square numbers**
 - rounding_error(CJ18/1B/MEDIUM): Determine how to distribute remaining votes so that the rounded number is maximized  **Rounding/Hash Map/Voting**
 - steed_2_cruise_control(CJ18/P/EASY): Find the maximum speed so that no horse will be overtaken **Precision**
 - street_checkers(KS19/E/HARD): Count in an interval the number of odd and even divisors **Divisor/Odd Even/Sieve of Eratosthenes**
@@ -99,6 +102,7 @@ https://cses.fi/book/book.pdf
 - pattern_matching(CJ20/1A_HARD): Find string that exists in patterns including asterisks by suffix and prefix **Prefix&Suffix**
 
 ### Tree
+- candies(KS20/C/HARD): Calculate the candy score of an alternating range sum **Segment Tree**
 - diameter_of_binary_tree(LC): Recursively traverse binary tree to find longest path between two nodes **BST/Recursion**
 - diverse_subarry(KS19/B/HARD): Find the range that maximize the number of elements when their occurence is limited **Segment Tree/Prefix sum**
 - spectating_villages(KS19/F/MEDIUM): Maximize the beauty value by placing light houses in a tree shape infrastructur **Complete search/Dynamic Programming**

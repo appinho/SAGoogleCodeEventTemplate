@@ -99,6 +99,12 @@
 	* [x] Robot Path Decoding - Grid - Stack/Nested/Parenthesis
 	* [P] Wandering robot - Dynamic Programming - Grid traversal/Probability
 
+* C
+	* [x] Countdown - Numbers - Counting
+	* [x] Stable Wall - Graphs - Topological sort/DFS
+	* [x] Perfect Subarray - Numbers - Prefix sum/Cache/Square numbers
+	* [x] Candies - Tree - Segment Tree
+
 ### 2019
 
 * P
