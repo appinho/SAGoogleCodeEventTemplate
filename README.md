@@ -1,8 +1,8 @@
 # Template for Google Code Events
 
-Go with brute force/complete search first!  
-Use more memory to become faster!  
+## Sources
 https://cses.fi/book/book.pdf
+https://cp-algorithms.com/
 
 
 ### Bit Manipulation
@@ -114,6 +114,8 @@ https://cses.fi/book/book.pdf
 
 ## Common Mistakes
 
+- Go with brute force/complete search first!  
+- Use more memory to become faster!  
 - check data types of inputs to avoid overflow like(long long instead of int)  
 - float cast creates troubles  
 - out of bounce check missing  
