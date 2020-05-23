@@ -4,6 +4,22 @@
 * https://cses.fi/book/book.pdf
 * https://cp-algorithms.com/
 
+## Lessons learned
+- Go with brute force/complete search first
+- Estimate Big O time/space complexity of given hyperparameters
+- Casting floats can cause rounding issues so prefer multiplication over division
+- Use array as look up e.g. alphabet with [26]  
+- Swap to do fast memory changes  
+- Sort changed order that is important for result  
+
+## Errors
+- TLE: Use more memory to become faster
+- WA: Error in algorithm
+- RE: Check data types of inputs to avoid overflow
+- CE: out of bounce check missing
+- Sample Failed RE: Check input output streaming
+- Sample Failed CE: Check definition of variables
+
 ## Subjects
 ### Bit Manipulation
 
@@ -111,20 +127,3 @@
 - alien_rhyme(CJ19/1A/HARD): Create suffix try to find longest suffix pairs **Prefix&Suffix**
 - bundling(KS20/A/MEDIUM): Find groups of maximum K members so that the sum of their prefixes is maximized **Prefix/Combinatorics**
 - prefix_trie(LC): Basic class of a prefix trie **Prefix**
-
-## Lessons learned
-
-- Go with brute force/complete search first
-- Estimate Big O time/space complexity of given hyperparameters
-- Casting floats can cause rounding issues so prefer multiplication over division
-- Use array as look up e.g. alphabet with [26]  
-- Swap to do fast memory changes  
-- Sort changed order that is important for result  
-
-## Errors
-- TLE: Use more memory to become faster
-- WA: Error in algorithm
-- RE: Check data types of inputs to avoid overflow
-- CE: out of bounce check missing
-- Sample Failed RE: Check input output streaming
-- Sample Failed CE: Check definition of variables
