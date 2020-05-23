@@ -3,6 +3,7 @@
 ## Sources
 * https://cses.fi/book/book.pdf
 * https://cp-algorithms.com/
+* https://docs.google.com/document/d/1iQ4GYRRmENKVJP92EYnukA40FNm1tUa-K_KE2OxI5As/edit
 
 ## Lessons learned
 - Go with brute force/complete search first
