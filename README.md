@@ -1,8 +1,8 @@
 # Template for Google Code Events
 
 ## Sources
-https://cses.fi/book/book.pdf
-https://cp-algorithms.com/
+* https://cses.fi/book/book.pdf
+* https://cp-algorithms.com/
 
 
 ### Bit Manipulation
